@@ -1,0 +1,1304 @@
+body{
+    background-color: #101014;
+   
+}
+
+@media (min-width: 1470px) {
+
+
+    /* #nav_wrapper{
+        display: flex;
+        
+    } */
+    
+    /* nav bar starts */
+    
+    .nav-wrapper-self{
+        display: flex;
+        width: 100%;
+        height: auto;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 42px;
+    }
+    
+    .logo_img{
+        width: 55px;
+        height: 31px;
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+        transition: all 0.5s ease;
+    }
+    
+    .logo_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    }
+    
+    .navbar{
+        background-color: #202024;
+         height: 50px;
+         width: 1000px;
+         border-radius: 30px;
+         padding-right: 1px;
+         padding-left: 18px;
+         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+         transition: all 0.5s ease ;
+    }
+    
+    #side_bar_toggle{
+        display: none;
+        background-color: none;
+        color: #C6C6C6;
+        margin-top: 5px;
+        font-weight: 500;
+    }
+    
+    #side_bar_toggle:hover{
+        color: #26BBFF;
+    }
+    
+    .nav-link{
+        color: #C6C6C6;
+        font-size: 14px;
+        /* margin-left: 10px; */
+        margin-right: 38px;
+        font-weight: 500;
+        margin-top: 5px;
+        margin-top: 5px;
+    }
+    
+    
+    
+    .nav-link:hover{
+        color: #26BBFF;
+    }
+
+    .nav-link:focus{
+        color: #C6C6C6;
+    }
+    
+    #active_link_nav{
+        color: #26BBFF;
+    
+    }
+    
+    /* .nav-link.active{
+        
+        color: aliceblue;
+        
+    } */
+    
+    .d-flex .btn{
+        margin-left: 10px;
+        border-radius: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 110px;
+        /* font-size: 1px; */
+        background-color: #353539;
+        border: none;
+        color: #C6C6C6;
+        font-weight: 500;
+        font-size: 14px;
+        padding-top: 4px;
+    }
+    
+    .d-flex .btn:hover{
+        background-color: #26BBFF;
+        color: #101014;
+    }
+    
+    #login_nav{
+        background-color: #26BBFF;
+        color: #101014;
+    
+    }
+    
+    #login_nav:hover{
+        background-color: 
+        #65c7f5;
+        color: #101014;
+    
+    }
+    
+    /* nav bar ends */
+
+    
+
+    .search_self{
+        width: 360px;
+        /* height: 30px; */
+    }
+
+    .search_self .d-flex input{
+        background-color: #353539;
+        border-radius: 50px;
+        border: none;
+        color: #C6C6C6;
+        padding-left: 20px;
+        
+    }
+
+    .search_self .d-flex .btn{
+        height: 40px;
+    }
+
+    .search_self .d-flex input::placeholder{
+        color: #909090;
+        font-weight: 500;
+        font-size: 14px;
+        
+    }
+    
+    /* tab starts */
+    
+    .tab_self_space{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 78px;
+        /* background-color: #26BBFF; */
+    }
+    
+    
+    .tab_self_wrapper{
+    display: flex;
+    width: 1430px;
+    height: auto;
+    gap: 20px;
+    justify-content: space-between;
+    transition: all 0.5s ease;
+    /* background-color: #8e69fa; */
+    
+    
+    }
+    
+    
+    
+    .tab_self{
+        background-color: #370BBA;
+        width: 460px;
+        height: 255px;
+        border-radius: 11px;
+        overflow: hidden;
+    }
+    
+    /* tab ends */
+    
+    /* carouse starts */
+    
+    
+    #carouse_container {
+        overflow: visible; /* Prevent hiding content */
+        padding: 0;
+        /* margin: 0 auto; Center the carousel */
+        margin-top: 54px;
+        max-width: 1430px; 
+        border-radius: 11px; 
+        overflow: hidden;
+        transition: all 0.5s ease;
+    }
+    
+    #carouselExampleSlidesOnly {
+        border-radius: 15px; /* Ensure smooth edges */
+        transition-duration: 0.3s;
+    }
+    
+    .carousel-inner {
+        transition-duration: 0.3s !important; /* Ensure the transition speed is applied here */
+    }
+    
+    .carousel-inner img {
+        border-radius: 15px; /* Match the container radius */
+        margin-right: 20px;
+    }
+    
+    .carousel-caption {
+        text-align: left;
+        left: 10%; /* Move content to the left */
+        transform: translateX(-10%); /* Optional: Adjust fine-tuning for left alignment */
+        color: white; /* Ensure text is readable */
+        /* background-color: rgba(0, 0, 0, 0.5); / / Optional: Add a semi-transparent background */
+        padding: 15px; /* Add padding inside the caption box */
+        margin-bottom: 2px;
+        
+        
+    }
+    
+    #carouselExampleSlidesOnly .carousel-caption .caros-logo-img {
+        width: auto; /* Ensure the image maintains its aspect ratio */
+        max-height: 100px; /* Adjust the maximum height */
+        margin-bottom: 10px; /* Add some spacing below the image */
+        display: block; /* Ensure it's displayed as a block */
+        border-radius: 0 !important; /* Remove any border-radius with high specificity */
+        -webkit-filter: drop-shadow(5px 5px 5px #222);
+      filter: drop-shadow(5px 5px 5px #222);
+      
+        
+    }
+    
+    
+    
+    .carousel-caption p {
+        font-size: 0.9375rem; /* Adjust description size */
+        margin-bottom: 15px; /* Add spacing below description */
+    }
+    
+    .carousel-caption a {
+        font-size: 1rem; /* Adjust button size */
+        padding: 10px 20px; /* Add padding for the button */
+        background-color: #353539;
+        border: none;
+    }
+    
+    /* carouse ends */
+
+    .error_message_container{
+        width: 100%;
+        display: flex;
+        
+        text-align: center;
+        justify-content: center;
+    }
+
+    .error_message{
+        font-size: 18px;
+        color: #C6C6C6;
+    }
+    
+    /* card scroll starts */
+    
+    .card_self_space_scroll {
+        width: 100%; /* Allows the parent to take full width */
+        height: auto;
+        display: flex;
+        justify-content: center; /* Centers the wrapper */
+        margin-top: 20px;
+        overflow: hidden; /* No vertical overflow */
+    
+        
+    }
+    
+    
+    .game_category_title{
+        
+        font-size: 20px;
+        text-align: center;
+        margin-top: 65px;
+        color: #C6C6C6;
+    }
+    
+    .card_self_space_scroll .card_self_wrapper {
+        display: flex;
+        
+        gap: 22px; /* Spacing between the cards */
+        height: auto;
+        width: 1434px; /* Adjust width to fit content dynamically */
+        overflow-x: auto; /* Enables horizontal scrolling */
+        overflow-y: hidden; /* Prevents vertical scrolling */
+        scroll-behavior: smooth; /* Smooth horizontal scrolling */
+        padding-bottom: 10px; /* Adds a bit of padding for better visuals */
+        scrollbar-color: #26BBFF #353539;
+        scrollbar-width: thin;
+        
+    }
+    
+    .card_self_space_scroll .card_self_wrapper::-webkit-scrollbar-track{
+        background: #353539;
+    }
+    
+    .card_self_space_scroll .card_self_wrapper .card_self {
+        flex: 0 0 auto; /* Prevents cards from shrinking */
+        height: auto;
+        width: 220px; /* Set the card width */
+        overflow: hidden;
+    }
+    
+    .card_self_space_scroll .card_self_wrapper .card_self .img_div {
+        display: flex;
+        height: 295px; /* Maintain consistent height */
+        width: 220px; /* Match the width of the card */
+        background-color: #370BBA;
+        border-radius: 11px;
+        overflow: hidden;
+    }
+    
+    .card_self_space_scroll .card_self_wrapper .card_self .text .name_self {
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 25px;
+        margin-bottom: 0px;
+        color: aliceblue;
+    }
+    
+    .card_self_space_scroll .card_self_wrapper .card_self .text .price_self {
+        margin-top: 0px;
+        font-size: 15px;
+        color: aliceblue;
+    }
+    
+    /* card scroll ends */
+    
+    
+    /* card starts */
+    .card_self_space{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        
+    }
+    
+    .card_self_wrapper{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 22px; /* Fixed gap size */
+        height: auto;
+        max-width: 1434px;
+        min-width: 462px;
+        justify-content: flex-start;
+        overflow: hidden;
+        transition: all 0.5s ease;
+        /* background-color: aqua; */
+    }
+    
+    .card_self{
+        /* display: flex; */
+        height: auto;
+        width: 220px;
+        /* background-color: #26BBFF; */
+        padding: none;
+        overflow: hidden;
+        text-decoration: none;
+        
+    }
+    
+    .img_div{
+        display: flex;
+        height: 295px;
+        width: 220px;
+        background-color: #370BBA;
+        border-radius: 11px;
+        overflow: hidden;
+    }
+    
+    .text{
+        
+    }
+    
+    .text .name_self{
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 25px;
+        margin-bottom: 0px;
+        color: aliceblue;
+    }
+    
+    .text .price_self{
+        margin-top: 0px;
+        font-size: 15px;
+        color: aliceblue;
+    }
+    
+    .badge{
+        border-radius: 20px;
+        
+    }
+    
+    }
+    
+@media (max-width: 1470px) and (min-width: 840px) {
+        /* #nav_wrapper{
+        display: flex;
+        
+    } */
+    
+    .nav-wrapper-self{
+        display: flex;
+        width: 100%;
+        height: auto;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 42px;
+        gap: 15px;
+    }
+    
+    .logo_img{
+        width: 55px;
+        height: 31px;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        transition: all 0.5s ease;
+    }
+    
+    .logo_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    }
+    
+    .navbar{
+        background-color: #202024;
+         height: 50px;
+         width: 700px;
+         border-radius: 30px;
+         padding-right: 1px;
+         padding-left: 18px;
+         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+         transition: all 0.5s ease ;
+    }
+    #side_bar_toggle{
+        display: none;
+        background-color: none;
+        color: #C6C6C6;
+        margin-top: 5px;
+        font-weight: 500;
+    }
+    
+    #side_bar_toggle:hover{
+        color: #26BBFF;
+    }
+    
+    .nav-link{
+        color: #C6C6C6;
+        font-size: 14px;
+        /* margin-left: 10px; */
+        margin-right: 38px;
+        font-weight: 500;
+        margin-top: 5px;
+    }
+    
+    .nav-link:hover{
+        color: #26BBFF;
+    }
+    
+    #active_link_nav{
+        color: #26BBFF;
+    
+    }
+    
+    /* .nav-link.active{
+        
+        color: aliceblue;
+        
+    } */
+    
+    .d-flex .btn{
+        margin-left: 10px;
+        border-radius: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 110px;
+        /* font-size: 1px; */
+        background-color: #353539;
+        border: none;
+        color: #C6C6C6;
+        font-weight: 500;
+        font-size: 14px;
+        padding-top: 4px;
+    }
+    
+    .d-flex .btn:hover{
+        background-color: #26BBFF;
+        color: #101014;
+    }
+    
+    #login_nav{
+        background-color: #26BBFF;
+        color: #101014;
+    
+    }
+    
+    #login_nav:hover{
+        background-color: 
+        #65c7f5;
+        color: #101014;
+    
+    }
+    
+    /* nav bar ends */
+
+    .search_self{
+        width: 360px;
+        /* height: 30px; */
+    }
+
+    .search_self .d-flex input{
+        background-color: #353539;
+        border-radius: 50px;
+        border: none;
+        color: #C6C6C6;
+        padding-left: 20px;
+        width: 100px;
+        
+    }
+
+    .search_self .d-flex .btn{
+        width: 80px;
+        height: 40px;
+    }
+
+    .search_self .d-flex input::placeholder{
+        color: #909090;
+        font-weight: 500;
+        font-size: 14px;
+        
+    }
+    
+    
+    /* tab starts */
+    
+    .tab_self_space{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 78px;
+        /* background-color: #26BBFF; */
+    }
+    
+    .tab_self_wrapper {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px; /* Adjust the gap size as needed */
+        width: 1130px;
+        height: auto;
+        transition: all 0.5s ease;
+    }
+    
+    
+    
+    
+    .tab_self{
+        background-color: #370BBA;
+        width: 460px;
+        height: 255px;
+        border-radius: 11px;
+        overflow: hidden;
+        
+    }
+    
+    .tab_self img{
+        object-fit: cover; /* Ensures the image fills the container while maintaining aspect ratio */
+        object-position: center; /* Centers the image inside the container */
+    }
+    
+    /* tab ends */
+    
+    /* carouse starts */
+    
+    
+    #carouse_container {
+        overflow: visible; /* Prevent hiding content */
+        padding: 0;
+        /* margin: 0 auto; Center the carousel */
+        margin-top: 54px;
+        max-width: 1130px; 
+        border-radius: 11px; 
+        overflow: hidden;
+        transition: all 0.5s ease;
+    }
+    
+    #carouselExampleSlidesOnly {
+        border-radius: 15px; /* Ensure smooth edges */
+        transition-duration: 0.3s;
+    }
+    
+    .carousel-inner {
+        transition-duration: 0.3s !important; /* Ensure the transition speed is applied here */
+    }
+    
+    .carousel-inner img {
+        border-radius: 15px; /* Match the container radius */
+        margin-right: 20px;
+    }
+    
+    .carousel-caption {
+        text-align: left;
+        left: 10%; /* Move content to the left */
+        transform: translateX(-10%); /* Optional: Adjust fine-tuning for left alignment */
+        color: white; /* Ensure text is readable */
+        /* background-color: rgba(0, 0, 0, 0.5); / / Optional: Add a semi-transparent background */
+        padding: 15px; /* Add padding inside the caption box */
+        margin-bottom: 2px;
+        
+        
+    }
+    
+    #carouselExampleSlidesOnly .carousel-caption .caros-logo-img {
+        width: auto; /* Ensure the image maintains its aspect ratio */
+        max-height: 10vh; /* Adjust the maximum height */
+        margin-bottom: 10px; /* Add some spacing below the image */
+        display: block; /* Ensure it's displayed as a block */
+        border-radius: 0 !important; /* Remove any border-radius with high specificity */
+        -webkit-filter: drop-shadow(5px 5px 5px #222);
+      filter: drop-shadow(5px 5px 5px #222);
+      
+        
+    }
+    
+    
+    
+    .carousel-caption p {
+        font-size: 0.9375rem; /* Adjust description size */
+        margin-bottom: 15px; /* Add spacing below description */
+    }
+    
+    .carousel-caption a {
+        font-size: 1rem; /* Adjust button size */
+        padding: 10px 20px; /* Add padding for the button */
+        background-color: #353539;
+        border: none;
+    }
+    
+    /* carouse ends */
+
+    .error_message_container{
+        width: 100%;
+        display: flex;
+        
+        text-align: center;
+        justify-content: center;
+    }
+
+    .error_message{
+        font-size: 18px;
+        color: #C6C6C6;
+    }
+    
+    /* card scroll starts */
+    
+    .card_self_space_scroll {
+        width: 100%; /* Allows the parent to take full width */
+        height: auto;
+        display: flex;
+        justify-content: center; /* Centers the wrapper */
+        margin-top: 20px;
+        overflow: hidden; /* No vertical overflow */
+    
+        
+    }
+    
+    
+    .game_category_title{
+        
+        font-size: 20px;
+        text-align: center;
+        margin-top: 65px;
+        color: #C6C6C6;
+        
+    }
+    
+    .card_self_space_scroll .card_self_wrapper {
+        display: flex;
+        gap: 22px; /* Spacing between the cards */
+        height: auto;
+        width: 1434px; /* Adjust width to fit content dynamically */
+        overflow-x: auto; /* Enables horizontal scrolling */
+        overflow-y: hidden; /* Prevents vertical scrolling */
+        scroll-behavior: smooth; /* Smooth horizontal scrolling */
+        padding-bottom: 10px; /* Adds a bit of padding for better visuals */
+        scrollbar-color: #26BBFF #353539;
+        scrollbar-width: thin;
+        
+    }
+    
+    .card_self_space_scroll .card_self_wrapper::-webkit-scrollbar-track{
+        background: #353539;
+    }
+    
+    .card_self_space_scroll .card_self_wrapper .card_self {
+        flex: 0 0 auto; /* Prevents cards from shrinking */
+        height: auto;
+        width: 220px; /* Set the card width */
+        overflow: hidden;
+    }
+    
+    .card_self_space_scroll .card_self_wrapper .card_self .img_div {
+        display: flex;
+        height: 295px; /* Maintain consistent height */
+        width: 220px; /* Match the width of the card */
+        background-color: #370BBA;
+        border-radius: 11px;
+        overflow: hidden;
+    }
+    
+    .card_self_space_scroll .card_self_wrapper .card_self .text .name_self {
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 25px;
+        margin-bottom: 0px;
+        color: aliceblue;
+    }
+    
+    .card_self_space_scroll .card_self_wrapper .card_self .text .price_self {
+        margin-top: 0px;
+        font-size: 15px;
+        color: aliceblue;
+    }
+    
+    /* card scroll ends */
+    
+    
+    /* card starts */
+    .card_self_space{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        
+    }
+    
+    .card_self_wrapper{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 22px; /* Fixed gap size */
+        height: auto;
+        max-width: 1030px;
+        min-width: 462px;
+        justify-content: flex-start;
+        overflow: hidden;
+        transition: all 0.5s ease;
+        /* background-color: aqua; */
+    }
+    
+    .card_self{
+        /* display: flex; */
+        height: auto;
+        width: 220px;
+        /* background-color: #26BBFF; */
+        padding: none;
+        overflow: hidden;
+        text-decoration: none;
+        
+    }
+    
+    .img_div{
+        display: flex;
+        height: 295px;
+        width: 220px;
+        background-color: #370BBA;
+        border-radius: 11px;
+        overflow: hidden;
+    }
+    
+    .text{
+        
+    }
+    
+    .text .name_self{
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 25px;
+        margin-bottom: 0px;
+        color: aliceblue;
+    }
+    
+    .text .price_self{
+        margin-top: 0px;
+        font-size: 15px;
+        color: aliceblue;
+    }
+    
+    .badge{
+        border-radius: 20px;
+        
+    }
+    
+    
+      }
+    
+@media (max-width: 1100px){
+        .tab_self_wrapper{
+            display: flex;
+            width: 830px;
+            height: auto;
+            gap: 20px;
+            justify-content: space-between;
+            transition: all 0.5s ease;
+            /* background-color: #8e69fa; */
+            
+            
+            }
+    
+            #carouse_container {
+                overflow: visible; /* Prevent hiding content */
+                padding: 0;
+                /* margin: 0 auto; Center the carousel */
+                margin-top: 54px;
+                max-width: 830px; 
+                border-radius: 11px; 
+                overflow: hidden;
+                transition: all 0.5s ease;
+            }
+    
+            #carouselExampleSlidesOnly .carousel-caption .caros-logo-img {
+                width: auto; /* Ensure the image maintains its aspect ratio */
+                max-height: 10vh; /* Adjust the maximum height */
+                margin-bottom: 10px; /* Add some spacing below the image */
+                display: block; /* Ensure it's displayed as a block */
+                border-radius: 0 !important; /* Remove any border-radius with high specificity */
+                -webkit-filter: drop-shadow(5px 5px 5px #222);
+              filter: drop-shadow(5px 5px 5px #222);
+              margin-bottom: 20px;
+              
+                
+            }
+    
+            .carousel-caption p {
+                display: none; /* Add spacing below description */
+            }
+    
+            .card_self_wrapper{
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                grid-gap: 22px; /* Fixed gap size */
+                height: auto;
+                max-width: 830px;
+                min-width: 462px;
+                justify-content: flex-start;
+                overflow: hidden;
+                transition: all 0.5s ease;
+                /* background-color: aqua; */
+            }
+        }
+    
+@media (max-width: 840px){
+      /* #nav_wrapper{
+    
+    
+        display: flex;
+        
+    } */
+    
+    .nav-wrapper-self{
+        display: flex;
+        width: 100%;
+        height: auto;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+        margin-top: 42px;
+    }
+    
+    .logo_img{
+        display: fl;
+        width: 55px;
+        height: 31px;
+       
+        justify-content: center;
+        transition: all 0.5s ease;
+        margin-top: 10px;
+    }
+    
+    .logo_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    }
+    
+    .navbar{
+        background-color: #202024;
+         height: 50px;
+         width: 500px;
+         border-radius: 30px;
+         padding-right: 1px;
+         padding-left: 18px;
+         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+         transition: all 0.5s ease ;
+    }
+    
+    .nav-link{
+        display: none;
+        color: #C6C6C6;
+        font-size: 14px;
+        /* margin-left: 10px; */
+        margin-right: 38px;
+        font-weight: 500;
+        margin-top: 5px;
+    }
+    
+    .nav-link:hover{
+        color: #26BBFF;
+    }
+    
+    #active_link_nav{
+        color: #26BBFF;
+    
+    }
+    
+    #side_bar_toggle{
+        
+        background-color: none;
+        color: #C6C6C6;
+        margin-top: 5px;
+        font-weight: 500;
+    }
+    
+    #side_bar_toggle:hover{
+        color: #26BBFF;
+    }
+    
+    
+    
+    /* .nav-link.active{
+        
+        color: aliceblue;
+        
+    } */
+    
+    .d-flex .btn{
+        margin-left: 10px;
+        border-radius: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 110px;
+        /* font-size: 1px; */
+        background-color: #353539;
+        border: none;
+        color: #C6C6C6;
+        font-weight: 500;
+        font-size: 14px;
+        padding-top: 4px;
+    }
+    
+    .d-flex .btn:hover{
+        background-color: #26BBFF;
+        color: #101014;
+    }
+    
+    #login_nav{
+        background-color: #26BBFF;
+        color: #101014;
+    
+    }
+    
+    #login_nav:hover{
+        background-color: 
+        #65c7f5;
+        color: #101014;
+    
+    }
+    
+    /* nav bar ends */
+
+    .search_self{
+        width: 360px;
+        /* height: 30px; */
+    }
+
+    .search_self .d-flex input{
+        background-color: #353539;
+        border-radius: 50px;
+        border: none;
+        color: #C6C6C6;
+        padding-left: 20px;
+        
+    }
+
+    .search_self .d-flex .btn{
+        height: 40px;
+    }
+
+    .search_self .d-flex input::placeholder{
+        color: #909090;
+        font-weight: 500;
+        font-size: 14px;
+        
+    }
+    
+    
+    /* tab starts */
+    
+    .tab_self_space{
+        display: none;
+        width: 100%;
+        height: auto;
+        
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 78px;
+        /* background-color: #26BBFF; */
+    }
+    
+    .tab_self_wrapper {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px; /* Adjust the gap size as needed */
+        width: 1130px;
+        height: auto;
+        transition: all 0.5s ease;
+    }
+    
+    
+    
+    
+    .tab_self{
+        background-color: #370BBA;
+        width: 460px;
+        height: 255px;
+        border-radius: 11px;
+        overflow: hidden;
+        
+    }
+    
+    .tab_self img{
+        object-fit: cover; /* Ensures the image fills the container while maintaining aspect ratio */
+        object-position: center; /* Centers the image inside the container */
+    }
+    
+    /* tab ends */
+    
+    /* carouse starts */
+    
+    
+    #carouse_container {
+        overflow: visible; /* Prevent hiding content */
+        padding: 0;
+        /* margin: 0 auto; Center the carousel */
+        margin-top: 54px;
+        max-width: 1130px; 
+        border-radius: 11px; 
+        overflow: hidden;
+        transition: all 0.5s ease;
+    }
+    
+    #carouselExampleSlidesOnly {
+        border-radius: 15px; /* Ensure smooth edges */
+        transition-duration: 0.3s;
+    }
+    
+    .carousel-inner {
+        transition-duration: 0.3s !important; /* Ensure the transition speed is applied here */
+    }
+    
+    .carousel-inner img {
+        border-radius: 15px; /* Match the container radius */
+        margin-right: 20px;
+    }
+    
+    .carousel-caption {
+        text-align: left;
+        left: 10%; /* Move content to the left */
+        transform: translateX(-10%); /* Optional: Adjust fine-tuning for left alignment */
+        color: white; /* Ensure text is readable */
+        /* background-color: rgba(0, 0, 0, 0.5); / / Optional: Add a semi-transparent background */
+        padding: 15px; /* Add padding inside the caption box */
+        margin-bottom: 2px;
+        
+        
+    }
+    
+    #carouselExampleSlidesOnly .carousel-caption .caros-logo-img {
+        width: auto; /* Ensure the image maintains its aspect ratio */
+        max-height: 10vh; /* Adjust the maximum height */
+        margin-bottom: 10px; /* Add some spacing below the image */
+        display: block; /* Ensure it's displayed as a block */
+        border-radius: 0 !important; /* Remove any border-radius with high specificity */
+        -webkit-filter: drop-shadow(5px 5px 5px #222);
+      filter: drop-shadow(5px 5px 5px #222);
+      
+        
+    }
+    
+    
+    
+    .carousel-caption p {
+        font-size: 0.9375rem; /* Adjust description size */
+        margin-bottom: 15px; /* Add spacing below description */
+    }
+    
+    .carousel-caption a {
+        font-size: 1rem; /* Adjust button size */
+        padding: 10px 20px; /* Add padding for the button */
+        background-color: #353539;
+        border: none;
+    }
+    
+    /* carouse ends */
+
+    .error_message_container{
+        width: 100%;
+        display: flex;
+        
+        text-align: center;
+        justify-content: center;
+    }
+
+    .error_message{
+        font-size: 18px;
+        color: #C6C6C6;
+    }
+    
+    /* card scroll starts */
+    
+    .card_self_space_scroll {
+        width: 100%; /* Allows the parent to take full width */
+        height: auto;
+        display: flex;
+        justify-content: center; /* Centers the wrapper */
+        margin-top: 20px;
+        overflow: hidden; /* No vertical overflow */
+    
+        
+    }
+    
+    
+    .game_category_title{
+        
+        font-size: 20px;
+        text-align: center;
+        margin-top: 65px;
+        color: #C6C6C6;
+        
+    }
+    
+    .card_self_space_scroll .card_self_wrapper {
+        display: flex;
+        gap: 22px; /* Spacing between the cards */
+        height: auto;
+        width: 1434px; /* Adjust width to fit content dynamically */
+        overflow-x: auto; /* Enables horizontal scrolling */
+        overflow-y: hidden; /* Prevents vertical scrolling */
+        scroll-behavior: smooth; /* Smooth horizontal scrolling */
+        padding-bottom: 10px; /* Adds a bit of padding for better visuals */
+        scrollbar-color: #26BBFF #353539;
+        scrollbar-width: thin;
+        
+    }
+    
+    .card_self_space_scroll .card_self_wrapper::-webkit-scrollbar-track{
+        background: #353539;
+    }
+    
+    .card_self_space_scroll .card_self_wrapper .card_self {
+        flex: 0 0 auto; /* Prevents cards from shrinking */
+        height: auto;
+        width: 220px; /* Set the card width */
+        overflow: hidden;
+    }
+    
+    .card_self_space_scroll .card_self_wrapper .card_self .img_div {
+        display: flex;
+        height: 295px; /* Maintain consistent height */
+        width: 220px; /* Match the width of the card */
+        background-color: #370BBA;
+        border-radius: 11px;
+        overflow: hidden;
+    }
+    
+    .card_self_space_scroll .card_self_wrapper .card_self .text .name_self {
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 25px;
+        margin-bottom: 0px;
+        color: aliceblue;
+    }
+    
+    .card_self_space_scroll .card_self_wrapper .card_self .text .price_self {
+        margin-top: 0px;
+        font-size: 15px;
+        color: aliceblue;
+    }
+    
+    /* card scroll ends */
+    
+    
+    /* card starts */
+    .card_self_space{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        
+    }
+    
+    .card_self_wrapper{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 22px; /* Fixed gap size */
+        height: auto;
+        max-width: 1030px;
+        min-width: 462px;
+        justify-content: flex-start;
+        overflow: hidden;
+        transition: all 0.5s ease;
+        /* background-color: aqua; */
+    }
+    
+    .card_self{
+        /* display: flex; */
+        height: auto;
+        width: 220px;
+        /* background-color: #26BBFF; */
+        padding: none;
+        overflow: hidden;
+        text-decoration: none;
+        
+    }
+    
+    .img_div{
+        display: flex;
+        height: 295px;
+        width: 220px;
+        background-color: #370BBA;
+        border-radius: 11px;
+        overflow: hidden;
+    }
+    
+    .text{
+        
+    }
+    
+    .text .name_self{
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 25px;
+        margin-bottom: 0px;
+        color: aliceblue;
+    }
+    
+    .text .price_self{
+        margin-top: 0px;
+        font-size: 15px;
+        color: aliceblue;
+    }
+    
+    .badge{
+        border-radius: 20px;
+        
+    }
+    
+        }
+    
+    
+@media (max-width: 645px){
+            .logo_img{
+                display: none;
+                width: 55px;
+                height: 31px;
+               
+                justify-content: center;
+                transition: all 0.5s ease;
+                margin-top: 10px;
+            }
+        }
